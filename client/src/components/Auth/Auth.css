@@ -1,0 +1,84 @@
+.auth-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background: linear-gradient(300deg, #948ff6,#80c8f5, #00d4ff);
+}
+
+.auth-wrapper .left {
+    width: 60%;
+    height: 100vh;
+}
+
+.auth-wrapper .right { 
+    
+    margin-top: 50px;
+    text-align: center;
+    width: calc(40% - 200px);
+   
+}
+
+.auth-wrapper .right .header {
+    margin-top: 5px;
+    margin-right: 85px;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+.auth-wrapper .right .sub-header {
+    padding-top: 15px;
+    margin-right:85px;
+    font-size: 1.5em;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.auth-wrapper .form {
+    width: fit-content;
+    width: 80%;
+    
+    
+    
+}
+
+.auth-wrapper .input {
+    width: 20vw;
+}
+
+.auth-wrapper .sign-in-wrapper .input-wrapper {
+    text-align: left;
+    /* width: fit-content; */
+    margin: 20px auto;
+}
+
+.auth-wrapper .sign-in-wrapper .input-wrapper:first-child {
+    margin-top: 10px;
+}
+
+.auth-wrapper .btn {
+    margin-top: 40px;
+    font-size: 1.1em !important;
+    width: 90% !important;
+    margin-right: 35px;
+    background: linear-gradient(300deg, #ff9e9e,#ff7e7e, #ff0000);
+    
+}
+
+.auth-wrapper .new {
+    
+    margin-right: 75px;
+    cursor: pointer;
+    color:white;
+}
+
+.auth-wrapper .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-wrapper .left img {
+    width: 60%;
+    height: auto;
+}
